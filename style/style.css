@@ -14,11 +14,13 @@ h1 {
 h2 {
 	font-family: 'Fira Sans', Arial, sans-serif;
 	font-size: 36px;
+	letter-spacing: 0.1em;
 }
 
 h3 {
 	font-family: 'Fira Sans', Arial, sans-serif;
 	font-size: 24px;
+	letter-spacing: 0.1em;
 }
 
 p {
