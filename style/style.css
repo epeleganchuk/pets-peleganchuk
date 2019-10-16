@@ -40,6 +40,8 @@ li {
 .container {
 	/* text-align выравнивает текст, а если ты хочешь выровнять контент по центру, задай контейнеру ширину и margin: 0 auto */
 	text-align: center;
+	width: 1023px;
+	margin: 0 auto;
 }
 
 .nav-item {
