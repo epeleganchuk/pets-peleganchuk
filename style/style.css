@@ -117,6 +117,17 @@ img.logo-img {
 	background: #510fad;
 }
 
+.cite-name {
+	font-family: 'Fira Sans', Arial, sans-serif;
+	font-size: 24px;
+}
+
+.cite-italic {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-style: italic;
+	color: #737274;
+}
+
 .social-icon {
 	background: url(../images/social-sprite.png) no-repeat 0 0;
 	width: 0px;
