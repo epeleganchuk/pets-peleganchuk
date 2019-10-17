@@ -174,9 +174,46 @@ li {
 	margin-left: 20px;
 }
 
+.breeds-container {
+	display: inline-flex;
+	flex-wrap: wrap;
+	padding-left: 23px;
+}
+
+.breed-card {
+	display: flex;
+	width: 460px;
+	flex-direction: column;
+	margin: 45px 0 0 20px;
+}
+
+.breed-card-h {
+	width: 460px;
+	text-align: left;
+}
+
+.breed-card-desc {
+	display: inline-flex;
+	flex-wrap: wrap;
+
+}
+
+.breed-card-img {
+	width: 140px;
+	margin-right: 20px;
+}
+
 .breed-desc {
 	color: #737274;
 	line-height: 30px;
+	width: 300px;
+	text-align: left;
+	margin: 0;
+}
+
+.breed-card-a {
+	margin-left: 160px;
+	text-transform: uppercase;
 }
 
 .all-about-pets {
