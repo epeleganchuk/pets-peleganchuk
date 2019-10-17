@@ -9,6 +9,9 @@ h1 {
 	font-family: 'Fira Sans', Arial, sans-serif;
 	font-size: 48px;
 	line-height: 60px;
+	text-align: left;
+	margin-left: 400px;
+	width: 550px;
 }
 
 h2 {
@@ -55,7 +58,7 @@ li {
 }
 
 .promo {
-
+	min-height: 500px;
 }
 
 .nav-item {
@@ -89,6 +92,10 @@ li {
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 20px;
+	text-align: left;
+	margin-left: 400px;
+	width: 550px;
+	padding-left: 10px;
 }
 
 .h2-in-dark {
