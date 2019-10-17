@@ -20,7 +20,7 @@ h1 {
 	line-height: 60px;
 	text-align: left;
 	margin-top: 130px;
-	margin-left: 400px;
+	margin-left: 370px;
 	width: 550px;
 }
 
@@ -28,6 +28,7 @@ h2 {
 	font-family: 'Fira Sans', Arial, sans-serif;
 	font-size: 36px;
 	letter-spacing: 0.1em;
+	padding-top: 30px;
 }
 
 h3 {
@@ -108,7 +109,7 @@ li {
 	font-size: 14px;
 	line-height: 20px;
 	text-align: left;
-	margin-left: 400px;
+	margin-left: 370px;
 	width: 550px;
 	padding-left: 10px;
 }
@@ -121,6 +122,14 @@ li {
 	color: #b8adc8;
 	line-height: 30px;
 }
+
+.h2-text-about-us {
+	text-align: left;
+	margin: 0 auto;
+	width: 355px;
+}
+
+
 
 .breed-desc {
 	color: #737274;
