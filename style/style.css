@@ -220,6 +220,9 @@ li {
 	background: #510fad;
 	background-image: url(../images/backgroun_pattern.jpg);
 	background-repeat: repeat;
+	min-height: 500px;
+	display: inline-flex;
+	align-items: center;
 }
 
 .cite-name {
@@ -234,7 +237,7 @@ li {
 }
 
 .article-container {
-
+	display: inline-flex;
 }
 
 .article-card {
@@ -257,6 +260,14 @@ li {
 .article-card-a {
 	text-align: left;
 	padding-left: 10px;
+}
+
+.social {
+	width: 430px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+	padding-left: 45px;
 }
 
 .social-icon {
