@@ -216,7 +216,23 @@ li {
 	text-transform: uppercase;
 }
 
+.rewiew-container {
+	display: inline-flex;
+}
+
+.reviews {
+	margin-top: 100px;
+}
+
+.cite {
+	text-align: left;
+	width: 460px;
+	margin-right: 20px;
+
+}
+
 .all-about-pets {
+	margin-top: 100px;
 	background: #510fad;
 	background-image: url(../images/backgroun_pattern.jpg);
 	background-repeat: repeat;
