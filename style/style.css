@@ -63,7 +63,6 @@ li {
 }
 
 .logo-img {
-	text-align: left;
 	padding-top: 10px;
 	margin-right: 200px;
 }
@@ -78,7 +77,8 @@ li {
 
 .nav-item {
 	display: inline-block;
-	margin: 10px 15px;
+	padding: 10px 15px 10px 0px;
+
 }
 
 .nav-link {
@@ -223,6 +223,7 @@ li {
 	min-height: 500px;
 	display: inline-flex;
 	align-items: center;
+	width: 1023px;
 	
 }
 
@@ -248,7 +249,7 @@ li {
 	background-color: #fff;
 	border-radius:10px;
 	box-shadow: 0px 0px 25px #000;
-	margin: 10px;
+	margin: 10px -20px 10px 40px;
 	overflow: hidden;
 }
 
@@ -267,11 +268,11 @@ li {
 }
 
 .social {
-	width: 430px;
+	width: 480px;
 	display: flex;
 	flex-wrap: wrap;
 	text-align: left;
-	padding-left: 45px;
+	padding-left: 40px;
 }
 
 .social-icon {
