@@ -280,6 +280,29 @@ li {
 	display: inline-block;
 }
 
+.contacts {
+	text-align: left;
+	margin-left: 40px;
+}
+
+.contacts-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact-type {
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+.contact-name {
+	margin: 0;
+}
+
+.contact-description {
+	margin: 0;
+}
+
 .icon-fb {
     width: 26px;
     height: 26px;
