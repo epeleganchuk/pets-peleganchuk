@@ -304,20 +304,29 @@ section {
 
 .rewiew-container {
 	display: flex;
-	padding-top: 70px;
+	padding-top: 30px;
 }
 
 .reviews {
 
 }
 
+.review-img {
+	margin-top: 40px;
+}
 
+.cite-italic-desc {
+	margin-top: 25px;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-style: italic;
+	color: #737274;
+	letter-spacing: 0.05em;
+}
 
 .cite {
 	text-align: left;
 	width: 460px;
 	margin-right: 20px;
-	margin-top: -40px;
 }
 
 .cite:before {
@@ -346,12 +355,18 @@ section {
 .cite-name {
 	font-family: 'Fira Sans', Arial, sans-serif;
 	font-size: 24px;
+	letter-spacing: 0.05em;
 }
 
 .cite-italic {
 	font-family: 'Roboto', Arial, sans-serif;
 	font-style: italic;
 	color: #737274;
+	letter-spacing: 0.05em;
+}
+
+.cite-text {
+margin-top: 13px;
 }
 
 .article-container {
