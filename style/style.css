@@ -10,7 +10,7 @@ font-family: 'Roboto', Arial, sans-serif;*/
 header {
 	display: flex;
 	justify-content: space-between;
-	padding: 10px 42px;
+	padding: 10px 0;
 	align-items: center;
 }
 
@@ -65,9 +65,12 @@ section {
 .container {
 	width: 1024px;
 	margin: 0 auto;
+}
+
+.wrapper {
+	margin: 0 42px;
 	background-image: url(../images/dog.png);
 	background-repeat: no-repeat;
-
 }
 
 .logo-img {
@@ -79,7 +82,6 @@ section {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-
 }
 
 .phone {
