@@ -303,11 +303,16 @@ section {
 }
 
 .rewiew-container {
-	display: inline-flex;
+	display: flex;
+	padding-top: 100px;
 }
 
 .reviews {
-	margin-top: 100px;
+
+}
+
+.review-img {
+
 }
 
 .cite {
