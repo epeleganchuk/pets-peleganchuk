@@ -8,9 +8,10 @@ font-family: 'Roboto', Arial, sans-serif;*/
 }
 
 header {
-	display: inline-flex;
-	justify-content: flex-start;
-	padding: 0 42px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 42px;
+	align-items: center;
 }
 
 body {
@@ -70,12 +71,18 @@ section {
 }
 
 .logo-img {
-	padding-top: 10px;
 	margin-right: 200px;
 }
 
+.header-right {
+	width: 620px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
 .phone {
-	margin: 32px 15px;
 }
 
 .promo {
@@ -84,8 +91,7 @@ section {
 
 .nav-item {
 	display: inline-block;
-	padding: 10px 30px 10px 0px;
-
+	padding-right: 25px;
 }
 
 .nav-link {
