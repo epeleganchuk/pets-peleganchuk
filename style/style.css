@@ -3,11 +3,14 @@ font-family: 'Roboto', Arial, sans-serif;*/
 
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 header {
 	display: inline-flex;
 	justify-content: flex-start;
+	padding: 0 42px;
 }
 
 body {
@@ -54,12 +57,16 @@ li {
 	line-height: 30px;
 }
 
+section {
+	padding: 0 42px;
+}
+
 .container {
-	text-align: center;
-	width: 1023px;
+	width: 1024px;
 	margin: 0 auto;
 	background-image: url(../images/dog.png);
 	background-repeat: no-repeat;
+
 }
 
 .logo-img {
@@ -240,7 +247,7 @@ li {
 	display: inline-flex;
 	align-items: center;
 	width: 1023px;
-	
+
 }
 
 .cite-name {
@@ -324,7 +331,7 @@ li {
 	margin: 100px 40px 0 40px;
 	text-align: left;
 	padding-left: 0;
-	
+
 }
 
 .social-icons-f {
