@@ -133,6 +133,35 @@ section {
 .about-us {
 	background: #510fad;
 	padding-bottom: 40px;
+	position: relative;
+	margin-top: 82px;
+	margin-bottom: 77px;
+}
+
+.about-us:before {
+	content: "";
+	background-image: url(../images/backround-shape-top.png);
+	width: 100%;
+	height: 82px;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	display: block;
+	background-size: 100%;
+	position: absolute;
+}
+
+.about-us:after {
+	content: "";
+	background-image: url(../images/backround-shape-bottom.png);
+	width: 100%;
+	height: 77px;
+	top: 100%;
+	left: 0;
+	right: 0;
+	display: block;
+	background-size: 100%;
+	position: absolute;
 }
 
 .round-img img{
@@ -230,6 +259,12 @@ section {
 .breed-card-a {
 	margin-left: 160px;
 	text-transform: uppercase;
+}
+
+.breed-card-a:after {
+	content: '';
+	background-image: url(../images/arrow-next-purple.png);
+	background-repeat: no-repeat;
 }
 
 .rewiew-container {
