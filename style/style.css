@@ -244,6 +244,7 @@ section {
 
 .breeds {
 		padding-top: 110px;
+
 }
 
 .breeds-container {
@@ -308,7 +309,7 @@ section {
 }
 
 .reviews {
-
+	padding-bottom: 200px;
 }
 
 .review-img {
@@ -340,18 +341,6 @@ section {
 	margin-left: 10px;
 }
 
-.all-about-pets {
-	margin-top: 100px;
-	background: #510fad;
-	background-image: url(../images/backgroun_pattern.jpg);
-	background-repeat: repeat;
-	min-height: 500px;
-	display: inline-flex;
-	align-items: center;
-	width: 1023px;
-
-}
-
 .cite-name {
 	font-family: 'Fira Sans', Arial, sans-serif;
 	font-size: 24px;
@@ -367,6 +356,20 @@ section {
 
 .cite-text {
 margin-top: 13px;
+}
+
+.all-about-pets {
+	background: #510fad;
+	background-image: url(../images/backgroun_pattern.jpg);
+	background-repeat: repeat;
+	min-height: 500px;
+	display: inline-flex;
+	align-items: center;
+	width: 1023px;
+}
+
+.h2-all-about-pets {
+	margin: 0;
 }
 
 .article-container {
@@ -391,6 +394,7 @@ margin-top: 13px;
 	text-align: left;
 	padding-left: 10px;
 	letter-spacing: 0.05em;
+
 }
 
 .article-card-a {
@@ -403,7 +407,6 @@ margin-top: 13px;
 	display: flex;
 	flex-wrap: wrap;
 	text-align: left;
-	padding-left: 40px;
 }
 
 .social-icon {
