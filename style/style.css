@@ -34,6 +34,7 @@ h2 {
 	font-size: 36px;
 	letter-spacing: 0.1em;
 	padding-top: 30px;
+	margin-left: 320px;
 }
 
 h3 {
@@ -72,6 +73,7 @@ section {
 	margin: 0 42px;
 	background-image: url(../images/dog.png);
 	background-repeat: no-repeat;
+	padding-bottom: 38px;
 }
 
 .logo-img {
@@ -138,6 +140,7 @@ section {
 	position: relative;
 	margin-top: 82px;
 	margin-bottom: 77px;
+	padding-top: 74px;
 }
 
 .about-us:before {
@@ -177,6 +180,7 @@ section {
 
 .h2-in-dark {
 	color: #fff;
+	letter-spacing: 0.05em;
 }
 
 .text-in-dark {
@@ -186,8 +190,13 @@ section {
 
 .h2-text-about-us {
 	text-align: left;
-	margin: 0 auto;
+	margin-left: 320px;
 	width: 355px;
+}
+
+.h2-text-about-us h2 {
+	margin: 0;
+	margin-bottom: 24px;
 }
 
 .about-us-container {
