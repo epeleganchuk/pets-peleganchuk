@@ -23,8 +23,9 @@ h1 {
 	font-size: 48px;
 	line-height: 60px;
 	text-align: left;
-	margin-top: 130px;
+	margin-top: 110px;
 	margin-left: 320px;
+	margin-bottom: 40px;
 	width: 550px;
 }
 
@@ -127,7 +128,8 @@ section {
 	text-align: left;
 	margin-left: 318px;
 	padding-left: 10px;
-	box-sizing: padding-box;
+	letter-spacing: 0.06em;
+
 }
 
 .about-us {
@@ -257,6 +259,8 @@ section {
 }
 
 .breed-card-a {
+	display: flex;
+	align-items: center;
 	margin-left: 160px;
 	text-transform: uppercase;
 }
@@ -265,6 +269,12 @@ section {
 	content: '';
 	background-image: url(../images/arrow-next-purple.png);
 	background-repeat: no-repeat;
+	width: 20px;
+	height: 14px;
+	margin-left: 10px;
+	display: inline-block;
+	background-size: 100%;
+
 }
 
 .rewiew-container {
