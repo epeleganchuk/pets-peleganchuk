@@ -32,7 +32,7 @@ h1 {
 h2 {
 	font-family: 'Fira Sans', Arial, sans-serif;
 	font-size: 36px;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.05em;
 	padding-top: 30px;
 	margin-left: 320px;
 }
@@ -40,7 +40,8 @@ h2 {
 h3 {
 	font-family: 'Fira Sans', Arial, sans-serif;
 	font-size: 24px;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.05em;
+	margin-bottom: 15px;
 }
 
 p {
@@ -180,7 +181,6 @@ section {
 
 .h2-in-dark {
 	color: #fff;
-	letter-spacing: 0.05em;
 }
 
 .text-in-dark {
@@ -242,17 +242,22 @@ section {
 	background-size: 100%;
 }
 
+.breeds {
+		padding-top: 110px;
+}
+
 .breeds-container {
-	display: inline-flex;
+	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
-	padding-left: 23px;
+	margin-top: 90px;
 }
 
 .breed-card {
 	display: flex;
-	width: 460px;
 	flex-direction: column;
-	margin: 45px 0 0 20px;
+	width: 460px;
+	padding-bottom: 100px;
 }
 
 .breed-card-h {
@@ -263,7 +268,6 @@ section {
 .breed-card-desc {
 	display: inline-flex;
 	flex-wrap: wrap;
-
 }
 
 .breed-card-img {
@@ -282,8 +286,8 @@ section {
 .breed-card-a {
 	display: flex;
 	align-items: center;
-	margin-left: 160px;
 	text-transform: uppercase;
+	margin-top: 25px;
 }
 
 .breed-card-a:after {
