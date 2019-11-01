@@ -472,12 +472,18 @@ margin-top: 13px;
 
 .contacts {
 	text-align: left;
-	margin-left: 40px;
+	margin-left: 0px;
+	margin-top: 110px;
+}
+
+.contacts-heading {
+	margin: 0;
 }
 
 .contacts-container {
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: 30px;
 }
 
 .contact-type {
@@ -495,7 +501,7 @@ margin-top: 13px;
 
 .nav-footer {
 	border-top: 2px solid #ccc;
-	margin: 100px 40px 0 40px;
+	margin: 80px 40px 0 40px;
 	text-align: left;
 	padding-left: 0;
 
