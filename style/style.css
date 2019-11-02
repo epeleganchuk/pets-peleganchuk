@@ -510,13 +510,14 @@ margin-top: 13px;
 
 .social-icons-f {
 	text-align: right;
-	margin: -30px 40px 0 0;
+	margin: 0;
 }
 
 .icon-fb {
     width: 26px;
     height: 26px;
     background-position: -5px -5px;
+    margin-left: 7px;
 }
 
 .icon-fb-indark:hover {
@@ -535,12 +536,14 @@ margin-top: 13px;
     width: 26px;
     height: 26px;
     background-position: -5px -41px;
+    margin-left: 7px;
 }
 
 .icon-inst {
     width: 26px;
     height: 26px;
     background-position: -41px -41px;
+    margin-left: 7px;
 }
 
 .icon-inst-indark:hover {
@@ -559,6 +562,7 @@ margin-top: 13px;
     width: 26px;
     height: 26px;
     background-position: -41px -77px;
+    margin-left: 7px;
 }
 
 .icon-vk {
