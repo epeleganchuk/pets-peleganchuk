@@ -156,6 +156,10 @@ footer {
 	line-height: 30px;
 }
 
+.nav-link:hover {
+	color: #510fad;
+}
+
 .contact-name {
 	font-family: 'Fira Sans', Arial, sans-serif;
 	font-size: 14px;
@@ -273,6 +277,10 @@ footer {
 	letter-spacing: 0.05em;
 }
 
+.about-us-a:hover {
+	color: #b8adc8;
+}
+
 .about-us-a:after {
 	content: '';
 	background-image: url(../images/arrow-next-yellow.png);
@@ -343,6 +351,11 @@ footer {
 	display: inline-block;
 	background-size: 100%;
 }
+
+.breed-card-a:hover {
+	color: #737274;
+}
+
 
 .rewiew-container {
 	display: flex;
@@ -475,7 +488,7 @@ margin-top: 13px;
 }
 
 .social-icon {
-	background: url(../images/social-sprite.png) no-repeat 0 0;
+	background: url(../images/sprite-all.png) no-repeat 0 0;
 	margin-top: 40px;
 	display: inline-block;
 }
@@ -520,7 +533,112 @@ margin-top: 13px;
 	margin-top: -20px;
 }
 
+/*---------------------------------SPRITE-------------------------------------*/
+
+.sprite-arrow-next-grey {
+    width: 20px;
+    height: 14px;
+    background-position: -5px -5px;
+}
+
+.sprite-arrow-next-purple {
+    width: 20px;
+    height: 14px;
+    background-position: -35px -5px;
+}
+
+.sprite-arrow-video {
+    width: 20px;
+    height: 14px;
+    background-position: -65px -5px;
+}
+
+.sprite-arrow-video-hover {
+    width: 20px;
+    height: 14px;
+    background-position: -95px -5px;
+}
+
 .icon-fb {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -29px;
+    margin-left: 7px;
+}
+
+.icon-fb-indark:hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -29px;
+}
+
+.icon-fb:hover {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -29px;
+}
+
+.icon-fb-indark {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -65px;
+    margin-left: 7px;
+}
+
+.icon-inst {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -65px;
+    margin-left: 7px;
+}
+
+.icon-inst-indark:hover {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -65px;
+}
+
+.icon-inst:hover {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -101px;
+}
+
+.icon-inst-indark {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -101px;
+    margin-left: 7px;
+}
+
+.icon-vk {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -101px;
+}
+
+.icon-vk-indark:hover {
+    width: 26px;
+    height: 26px;
+    background-position: -125px -5px;
+}
+
+.icon-vk:hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -41px;
+}
+
+.icon-vk-indark {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -77px;
+}
+
+
+
+
+/*.icon-fb {
     width: 26px;
     height: 26px;
     background-position: -5px -5px;
@@ -595,3 +713,4 @@ margin-top: 13px;
     height: 26px;
     background-position: -113px -77px;
 }
+*/
