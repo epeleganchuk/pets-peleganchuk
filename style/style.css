@@ -25,13 +25,10 @@ font-family: 'Roboto', Arial, sans-serif;*/
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/fira-sans-v10-latin_cyrillic-500.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/fira-sans-v10-latin_cyrillic-500.woff2'); /* IE9 Compat Modes */
   src: local('Fira Sans Medium'), local('FiraSans-Medium'),
-       url('../fonts/fira-sans-v10-latin_cyrillic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/fira-sans-v10-latin_cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/fira-sans-v10-latin_cyrillic-500.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/fira-sans-v10-latin_cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/fira-sans-v10-latin_cyrillic-500.svg#FiraSans') format('svg'); /* Legacy iOS */
+
 }
 
 * {
@@ -87,6 +84,10 @@ a {
 	font-size: 16px;
 	color: #510fad;
 	text-decoration: none;
+}
+
+a:hover {
+	color: #737274;
 }
 
 li {
@@ -283,13 +284,21 @@ footer {
 
 .about-us-a:after {
 	content: '';
-	background-image: url(../images/arrow-next-yellow.png);
-	background-repeat: no-repeat;
-	width: 20px;
-	height: 14px;
+	background: url(../images/sprite-all.png) no-repeat 0 0;
+  width: 20px;
+  height: 14px;
+  background-position: -65px -5px;
 	margin-left: 20px;
 	display: inline-block;
-	background-size: 100%;
+
+}
+
+.about-us-a:hover:after {
+	content: '';
+	background: url(../images/sprite-all.png) no-repeat 0 0;
+	width: 20px;
+	height: 14px;
+	background-position: -95px -5px;
 }
 
 .breeds {
@@ -343,13 +352,20 @@ footer {
 
 .breed-card-a:after {
 	content: '';
-	background-image: url(../images/arrow-next-purple.png);
-	background-repeat: no-repeat;
+	background: url(../images/sprite-all.png) no-repeat 0 0;
 	width: 20px;
 	height: 14px;
+	background-position: -35px -5px;
 	margin-left: 10px;
 	display: inline-block;
-	background-size: 100%;
+}
+
+.breed-card-a:hover:after {
+	content: '';
+	background: url(../images/sprite-all.png) no-repeat 0 0;
+	width: 20px;
+	height: 14px;
+	background-position: -5px -5px;
 }
 
 .breed-card-a:hover {
@@ -460,6 +476,10 @@ margin-top: 13px;
 	overflow: hidden;
 }
 
+.article-card:hover {
+	box-shadow: 0px 0px 35px #000;
+}
+
 .article-card-h {
 	font-family: 'Roboto', Arial, sans-serif;
 	font-size: 16px;
@@ -478,13 +498,21 @@ margin-top: 13px;
 
 .article-card-a:after {
 	content: '';
-	background-image: url(../images/arrow-next-purple.png);
-	background-repeat: no-repeat;
+	background: url(../images/sprite-all.png) no-repeat 0 0;
 	width: 20px;
 	height: 14px;
+	background-position: -35px -5px;
 	margin-left: 10px;
 	display: inline-block;
-	background-size: 100%;
+	vertical-align: middle;
+}
+
+.article-card-a:hover:after {
+	content: '';
+	background: url(../images/sprite-all.png) no-repeat 0 0;
+	width: 20px;
+	height: 14px;
+	background-position: -5px -5px;
 }
 
 .social-icon {
@@ -535,25 +563,25 @@ margin-top: 13px;
 
 /*---------------------------------SPRITE-------------------------------------*/
 
-.sprite-arrow-next-grey {
-    width: 20px;
-    height: 14px;
-    background-position: -5px -5px;
-}
-
-.sprite-arrow-next-purple {
+.arrow-next {
     width: 20px;
     height: 14px;
     background-position: -35px -5px;
 }
 
-.sprite-arrow-video {
+.arrow-next:hover {
+    width: 20px;
+    height: 14px;
+    background-position: -5px -5px;
+}
+
+.arrow-video {
     width: 20px;
     height: 14px;
     background-position: -65px -5px;
 }
 
-.sprite-arrow-video-hover {
+.arrow-video:hover {
     width: 20px;
     height: 14px;
     background-position: -95px -5px;
@@ -564,12 +592,6 @@ margin-top: 13px;
     height: 26px;
     background-position: -5px -29px;
     margin-left: 7px;
-}
-
-.icon-fb-indark:hover {
-    width: 26px;
-    height: 26px;
-    background-position: -41px -29px;
 }
 
 .icon-fb:hover {
@@ -585,17 +607,17 @@ margin-top: 13px;
     margin-left: 7px;
 }
 
+.icon-fb-indark:hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -29px;
+}
+
 .icon-inst {
     width: 26px;
     height: 26px;
     background-position: -41px -65px;
     margin-left: 7px;
-}
-
-.icon-inst-indark:hover {
-    width: 26px;
-    height: 26px;
-    background-position: -77px -65px;
 }
 
 .icon-inst:hover {
@@ -611,10 +633,28 @@ margin-top: 13px;
     margin-left: 7px;
 }
 
+.icon-inst-indark:hover {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -65px;
+}
+
 .icon-vk {
     width: 26px;
     height: 26px;
     background-position: -77px -101px;
+}
+
+.icon-vk:hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -41px;
+}
+
+.icon-vk-indark {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -77px;
 }
 
 .icon-vk-indark:hover {
@@ -623,94 +663,3 @@ margin-top: 13px;
     background-position: -125px -5px;
 }
 
-.icon-vk:hover {
-    width: 26px;
-    height: 26px;
-    background-position: -113px -41px;
-}
-
-.icon-vk-indark {
-    width: 26px;
-    height: 26px;
-    background-position: -113px -77px;
-}
-
-
-
-
-/*.icon-fb {
-    width: 26px;
-    height: 26px;
-    background-position: -5px -5px;
-    margin-left: 7px;
-}
-
-.icon-fb-indark:hover {
-    width: 26px;
-    height: 26px;
-    background-position: -41px -5px;
-}
-
-.icon-fb:hover {
-    width: 26px;
-    height: 26px;
-    background-position: -77px -5px;
-}
-
-.icon-fb-indark {
-    width: 26px;
-    height: 26px;
-    background-position: -5px -41px;
-    margin-left: 7px;
-}
-
-.icon-inst {
-    width: 26px;
-    height: 26px;
-    background-position: -41px -41px;
-    margin-left: 7px;
-}
-
-.icon-inst-indark:hover {
-    width: 26px;
-    height: 26px;
-    background-position: -77px -41px;
-}
-
-.icon-inst:hover {
-    width: 26px;
-    height: 26px;
-    background-position: -5px -77px;
-}
-
-.icon-inst-indark {
-    width: 26px;
-    height: 26px;
-    background-position: -41px -77px;
-    margin-left: 7px;
-}
-
-.icon-vk {
-    width: 26px;
-    height: 26px;
-    background-position: -77px -77px;
-}
-
-.icon-vk-indark:hover {
-    width: 26px;
-    height: 26px;
-    background-position: -113px -5px;
-}
-
-.icon-vk:hover {
-    width: 26px;
-    height: 26px;
-    background-position: -113px -41px;
-}
-
-.icon-vk-indark {
-    width: 26px;
-    height: 26px;
-    background-position: -113px -77px;
-}
-*/
